@@ -1,0 +1,278 @@
+@import url('https://fonts.googleapis.com/css2?family=Alkatra:wght@500&family=Heebo&family=Hind+Madurai:wght@500&family=Hind+Siliguri:wght@500&family=Oxygen&family=Poppins:wght@300&family=Tillana:wght@600&family=Vollkorn&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins','sans-serif';
+}
+body{
+   width: 100%;
+}
+nav li{
+   display: block;
+   display: inline-block;
+}
+.container{
+      
+        
+        min-height: 450px;
+        min-width: 2071px;
+        
+        background-image: url(/images/img11.jpg);
+        background-position: center;
+        background-size: cover;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        
+
+}
+.search-bar{
+    width: 100%;
+    max-width: 350px;
+    background: rgba(255, 255, 255, 0.267);
+    display: flex;
+    margin-top: 210px;
+    margin-right: 60px;
+    border-radius: 60px;
+    padding: 5px 20px;
+}
+
+.search-bar input{
+    background: transparent;
+    flex: 1;
+    border: 0;
+    outline: none;
+    padding: 2px 2px;
+    font-size: 20px;
+}
+::placeholder{
+    color: rgba(4, 64, 99, 0.822);
+    
+}
+.search-bar button img{
+    width: 21px;
+    color: white;
+}
+.search-bar button {
+    border: 0;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    background: rgba(8, 94, 80, 0.274);
+    opacity: 70%;
+    cursor: pointer;
+
+}
+.b{
+    margin-top: 250px;
+    background-image: url(/images/tt.png);
+    background-position: left;
+    background-repeat: no-repeat;
+    background-size: 37%;
+   
+    
+    
+}
+ .b img{
+   width:700px;
+    height: 350px;
+    border-radius: 60px 0 60px 0; 
+    border: 5px solid rgb(26, 25, 25);
+    float: right;
+    margin-right: 150px;
+    margin-left: 250px;
+   
+    
+ }
+ .b article{
+    margin-left: 150px;
+
+    
+    
+ }
+ .b article h2{
+    font-size: 70px;
+    font-family: 'Hind Madurai', sans-serif;
+
+
+
+ }
+ .b article p{
+    font-size: 27px;
+ }
+ .a{
+   margin-right: 150px;
+    margin-top: 170px;
+    background-image: url(/images/ttt.png);
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: 32%;
+ }
+ .a img{
+    width:700px;
+    height: 350px;
+    border-radius: 60px 0 60px 0; 
+    border: 5px solid rgb(26, 25, 25);
+    float: left;
+    margin-left: 150px;
+    margin-right: 250px;
+ }
+ .a article{
+    margin-right: 150px; 
+ }
+ .a article h2{
+    font-size: 70px;
+    font-family: 'Hind Madurai', sans-serif;
+    
+ }
+ .a article p{
+    font-size:25px;
+ }
+
+ .cards{
+   margin-left: 465px;
+
+   
+   
+
+   
+ }
+ .cards .ii{
+   float: right;
+   padding-right: 100px;
+   padding-top: 50px;
+ }
+ .cards .cardd{
+   display: block;
+   display: inline-block;
+   margin-right: 25px;
+   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+ }
+  .cards .btn {
+   margin-left: 70px;
+   margin-bottom: 18px;
+   
+ }
+ .cards .card-body{
+   margin-left: 7px;
+   margin-top: 7px;
+ }
+.end{
+   display: block;
+   display: inline-block;
+}
+
+
+
+.bb{
+   margin-left: 910px;
+   margin-top: 150px;
+   width: 10%;
+   align-items: center;
+   background-color: rgba(0, 110, 101, 0.603);
+   justify-content: center;
+   transition-duration: 0.4s;
+   border-radius: 18px;
+}
+.bb:hover{
+   background-color: rgba(2, 110, 101, 0.699);;
+}
+.bt{
+   margin-bottom: 8px;
+   margin-top: 8px;
+   margin-left: 8px;
+   margin-right: 8px;
+   font-size: 27px;
+   transition-duration: 0.4s;
+   padding: 20px;
+   border-radius: 12px;
+   border: 5px solid rgb(206, 157, 22);
+   color: rgb(206, 157, 22);
+   
+}
+.bt:hover {
+   border: 5px solid rgb(70, 70, 70);
+   background-color: rgb(206, 157, 22); /* Green */
+   color: rgb(70, 70, 70);
+ }
+
+ .aa{
+   font-weight: bold;
+   font-family: 'Hind Madurai', sans-serif;
+   background-color: white;
+   padding-top: 10px;
+   font-size: 29.3px;
+   border: none;
+   margin-left: 40px;
+   margin-bottom: 10px;
+   color: rgb(73, 73, 73);
+
+}
+.aa:hover{
+   color: rgba(0, 110, 101, 0.829);
+   text-decoration: underline;
+}
+.ar{
+   color: rgb(73, 73, 73);
+   font-weight: bold;
+   font-family: 'Hind Madurai', sans-serif; 
+   background-color: white;
+   padding-top: 10px;
+   font-size: 29.3px;
+   border: none;
+   margin-left: 10px;
+}
+.ar:hover{
+   color: rgba(37, 180, 168, 0.829);
+   text-decoration: underline;
+}
+.modal-content{
+   border: solid 4.3px #38b88db2;
+}
+.fo{
+   
+   width: 100%;
+   box-sizing: border-box;
+   border-radius: 5px;
+   box-shadow: 0px 0px 10px 0px #66666625;
+}
+.inp{
+   padding: 10px;
+   width: 100%;
+   box-sizing: border-box;
+   outline: none;
+   border: solid 2px #04AA6D;
+}
+.plac{
+   position: absolute;
+   top: 10px;
+   left: 8px;
+   font-family: 'Hind Madurai', sans-serif;
+   font-size: 18px;
+   padding: 0px 5px;
+   color: #666;
+   transition: 0.3s;
+}
+.inp:focus + .plac{
+   top: -10px;
+   color: #04AA6D;
+   background-color: #fff;
+   
+}
+.xx{
+   border: solid 2px #04AA6D;
+   padding-bottom: 8px;
+   padding-top: 8px;
+   padding-left: 17px;
+   padding-right: 17px;
+   border-radius: 5px;
+   background-color: #fff;
+}
+.xx:hover{
+   background-color: #04AA6D;
+   color: #fff;
+}
+
+ 
+ 
